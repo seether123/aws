@@ -1,1 +1,2 @@
+eksctl create cluster --name=my-cluster --region=us-east-1 --node-private-networking --nodegroup-name=my-ng --node-type=t3.medium --nodes-min=2 --nodes-max=2 --nodes-private-networking --vpc-cidr=192.168.0.0/16 --subnets=192.168.10.0/24,192.168.20.0/24 --node-private-networking --node-volume-size=50 --ssh-access --ssh-public-key=<path-to-ssh-public-key-file>
 
